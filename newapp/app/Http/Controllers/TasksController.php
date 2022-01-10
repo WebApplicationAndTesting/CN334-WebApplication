@@ -21,11 +21,15 @@ class TasksController extends Controller
     {
         $this->validate($request, [
             'description' => 'required',
-            'price' => 'required'
+            'date' => 'required',
+            'time' => 'required',
+            'deadline' => 'required'
         ]);
     	$task = new Task();
     	$task->description = $request->description;
-        $task->price = $request->price;
+        $task->date = $request->date;
+        $task->time = $request->time;
+        $task->deadline = $request->deadline;
     	$task->user_id = auth()->user()->id;
     	$task->save();
     	return redirect('/dashboard'); 
@@ -53,10 +57,15 @@ class TasksController extends Controller
     	{
             $this->validate($request, [
                 'description' => 'required',
-                'price' => 'required'
+                'date' => 'required',
+                'time' => 'required',
+                'deadline' => 'required'
             ]);
     		$task->description = $request->description;
-            $task->price = $request->price;
+            $task->date = $request->date;
+            $task->time = $request->time;
+            $task->deadline = $request->deadline;
+
 	    	$task->save();
 	    	return redirect('/dashboard'); 
     	}    	

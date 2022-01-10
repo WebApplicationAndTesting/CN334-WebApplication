@@ -11,6 +11,8 @@ Document
 Use a better box model (opinionated).
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Montserrat+Alternates:wght@300&family=Poppins:wght@500&family=Righteous&display=swap');
+
 *,
 ::before,
 ::after {
@@ -17015,6 +17017,36 @@ select {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.bg-dome1 {
+  background-image: linear-gradient(30deg, #13547a,#80c0d7,#e7b082, #d79780);
+}
+
+.btn-dome1 {
+  background-color: #13547a;
+}
+
+.btn-dome2 {
+  background-color: #d79780;
+}
+
+.font-dome1 {
+  font-family: 'Mitr', sans-serif;
+ 
+}
+
+.fontstyle-dome1 {
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.fontcolor-dome1 {
+  color: #fff !important ;
+}
+
+.fontsize-dome30 {
+  font-size: 30px
+}
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
@@ -24308,8 +24340,9 @@ select {
 }
 
 .text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
+  /* --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity)); */
+  color: #fff;
 }
 
 .text-gray-600 {
@@ -24318,8 +24351,9 @@ select {
 }
 
 .text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  /* --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity)); */
+  color: #fff
 }
 
 .text-gray-800 {
@@ -24328,8 +24362,9 @@ select {
 }
 
 .text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgba(17, 24, 39, var(--tw-text-opacity));
+  /* --tw-text-opacity: 1;
+  color: rgba(17, 24, 39, var(--tw-text-opacity)); */
+  color: #fff;
 }
 
 .text-red-50 {
