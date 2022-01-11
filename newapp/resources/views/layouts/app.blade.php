@@ -20,19 +20,23 @@
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
+            <div class="body-dome">
             @livewire('navigation-dropdown')
 
-            <!-- Page Heading -->
-            <header class=" shadow">
-                <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    {{ $header }}
-                </div>
-            </header>
+                <div>
+                    <!-- Page Heading -->
+                    <header class=" shadow">
+                        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                            {{ $header }}
+                        </div>
+                    </header>
 
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+                    <!-- Page Content -->
+                    <main>
+                        {{ $slot }}
+                    </main>
+                </div>
+            </div>
         </div>
 
         @stack('modals')

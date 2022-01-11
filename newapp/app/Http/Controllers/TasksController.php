@@ -22,13 +22,13 @@ class TasksController extends Controller
         $this->validate($request, [
             'description' => 'required',
             'date' => 'required',
-            'time' => 'required',
+            // 'time' => 'required',
             'deadline' => 'required'
         ]);
     	$task = new Task();
     	$task->description = $request->description;
         $task->date = $request->date;
-        $task->time = $request->time;
+        // $task->time = $request->time;
         $task->deadline = $request->deadline;
     	$task->user_id = auth()->user()->id;
     	$task->save();
@@ -58,12 +58,12 @@ class TasksController extends Controller
             $this->validate($request, [
                 'description' => 'required',
                 'date' => 'required',
-                'time' => 'required',
+                // 'time' => 'required',
                 'deadline' => 'required'
             ]);
     		$task->description = $request->description;
             $task->date = $request->date;
-            $task->time = $request->time;
+            // $task->time = $request->time;
             $task->deadline = $request->deadline;
 
 	    	$task->save();
