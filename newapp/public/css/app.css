@@ -17017,8 +17017,16 @@ select {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.border-color-d1 {
+  border-color: #6c7a89 ;
+}
+
 .bg-dome1 {
-  background-image: linear-gradient(160deg, #354649,#6c7a89,#a3c6c4, #e0e7e9);
+  background-image: linear-gradient(160deg, #354649,#6c7a89,#a3c6c4);
+}
+
+.bg-dome2 {
+  background-color: #e0e7e9
 }
 
 .btn-dome1 {
@@ -17027,6 +17035,10 @@ select {
 
 .btn-dome2 {
   background-color: #d79780;
+}
+
+.btn-dome3 {
+  background-color: #354649;
 }
 
 .font-dome1 {
@@ -17051,16 +17063,27 @@ select {
   font-size: 2.5rem
 }
 
-.form-dome {
+/* .form-dome {
   display: grid ;
-  grid-template-columns: 2.5fr 1fr 1fr ;
+  grid-template-columns: 2.5fr 1fr ;
   grid-gap: 16px ;
+} */
+
+
+.grid-date-dome {
+  display: grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px ;
 }
 
 .body-dome {
   display: grid ;
   grid-template-columns: 2fr 10fr;
   height: 100vh ;
+}
+
+.data-pad {
+  padding-top: 10px ;
 }
 
 .pad-top-dome {

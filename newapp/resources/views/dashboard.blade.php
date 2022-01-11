@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl leading-tight fontsize-dome31">
+        <h2 class="font-semibold text-xl leading-tight fontsize-dome31 inline">
             {{ __('MY TASK LIST') }}
             
         </h2>
@@ -8,7 +8,7 @@
             <x-jet-dropdown align="right" width="48">
                 <x-slot name="trigger">
                     @if (Laravel\Jetstream\Jetstream::managesProfilePhotos())
-                        <button class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out">
+                        <button class="flex text-sm border-2 border-color-d1 rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out">
                             <img class="h-8 w-8 rounded-full object-cover" src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" />
                         </button>
                     @else
@@ -90,60 +90,52 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-5">
-                <!-- <div class="flex">
-                    <div class="flex-auto text-2xl mb-4">MY TASK LIST</div>
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-7">
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-7">
                     
-                    <div class="flex-auto text-right mt-2">
-                        <a href="/task" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">ADD NEW TASK</a>
+                    <table class="w-full text-md rounded mb-4">
+                        <thead>
+                            <tr class="border-b fontsize-dome30">
+                                <th class="text-left p-3 px-5">Task</th>
+                                <th class="text-left p-3 px-5">Date</th>
+                                <th class="text-left p-3 px-5">Deadline</th>
+                                <th class="text-left p-3 px-5"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach(auth()->user()->tasks as $task)
+                            <tr class="border-b hover:bg-orange-100 font-dome1">
+                                <td class="text-left p-3 px-5">
+                                    {{$task->description}}
+                                </td>
+                                <td class="text-left p-3 px-5">
+                                    {{$task->date}}
+                                </td>
+                                <!-- <td>
+                                    {{$task->time}}
+                                </td> -->
+                                <td class="text-left p-3 px-5">
+                                    {{$task->deadline}}
+                                </td>
+                                <td class="p-3 px-5 font-dome1">
+                                    <form action="/task/{{$task->id}}" class="inline-block">
+                                        <button type="submit" name="delete" formmethod="POST" class="text-sm btn-dome1 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Done</button>
+                                        {{ csrf_field() }}
+                                    </form>
+                                    <a href="/task/{{$task->id}}" name="edit" class="mr-3 text-sm btn-dome2 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
+                                </td>
+                            </tr>
+
+                        @endforeach
+                        </tbody>
+                    </table>
+
+                    
+                </div>
+                <div class="flex justify-center"> 
+                    <div class="text-right mt-2">
+                        <a href="/task" class="btn-dome3 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-3xl">ADD NEW TASK</a>
                     </div>
-                </div> -->
-                <table class="w-full text-md rounded mb-4">
-                    <thead>
-                    <tr class="border-b fontsize-dome30">
-                        <th class="text-left p-3 px-5">Task</th>
-                        <th class="text-left p-3 px-5">Date</th>
-                        <!-- <th class="text-left p-3 px-5">Time</th> -->
-                        <th class="text-left p-3 px-5">Deadline</th>
-                        <th class="text-left p-3 px-5"></th>
-
-                        <!-- <th class="text-left p-3 px-5"></th> -->
-                        
-                    </tr>
-                    </thead>
-                    <tbody>
-                    @foreach(auth()->user()->tasks as $task)
-                        <tr class="border-b hover:bg-orange-100 font-dome1">
-                            <td class="text-left p-3 px-5">
-                                {{$task->description}}
-                            </td>
-                            <td class="text-left p-3 px-5">
-                                {{$task->date}}
-                            </td>
-                            <!-- <td>
-                                {{$task->time}}
-                            </td> -->
-                            <td class="text-left p-3 px-5">
-                                {{$task->deadline}}
-                            </td>
-                            <td class="p-3 px-5 font-dome1">
-                                <form action="/task/{{$task->id}}" class="inline-block">
-                                    <button type="submit" name="delete" formmethod="POST" class="text-sm btn-dome1 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Done</button>
-                                    {{ csrf_field() }}
-                                </form>
-                                <a href="/task/{{$task->id}}" name="edit" class="mr-3 text-sm btn-dome2 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
-                            </td>
-                        </tr>
-
-                    @endforeach
-                    </tbody>
-                </table>
-
-                
-            </div>
-            <div class="flex"> 
-                <div class="flex-auto text-right mt-2">
-                    <a href="/task" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">ADD NEW TASK</a>
                 </div>
             </div>
         </div>
