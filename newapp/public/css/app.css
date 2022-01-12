@@ -11,6 +11,8 @@ Document
 Use a better box model (opinionated).
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Montserrat+Alternates:wght@300&family=Poppins:wght@500&family=Righteous&display=swap');
+
 *,
 ::before,
 ::after {
@@ -17015,6 +17017,107 @@ select {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
+.border-color-d1 {
+  border-color: #6c7a89 ;
+}
+
+.bg-dome1 {
+  background-image: linear-gradient(160deg, #354649,#6c7a89,#a3c6c4);
+}
+
+.bg-dome2 {
+  background-color: #e0e7e9
+}
+
+.btn-dome1 {
+  background-color: #13547a;
+}
+
+.btn-dome2 {
+  background-color: #d79780;
+}
+
+.btn-dome3 {
+  background-color: #354649;
+}
+
+.font-dome1 {
+  font-family: 'Mitr', sans-serif;
+ 
+}
+
+.fontstyle-dome1 {
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.fontcolor-dome1 {
+  color: #fff !important ;
+}
+
+.fontsize-dome30 {
+  font-size: 1.5rem
+}
+
+.fontsize-dome31 {
+  font-size: 2.5rem
+}
+
+/* .form-dome {
+  display: grid ;
+  grid-template-columns: 2.5fr 1fr ;
+  grid-gap: 16px ;
+} */
+
+
+.grid-date-dome {
+  display: grid ;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px ;
+}
+
+.body-dome {
+  display: grid ;
+  grid-template-columns: 2fr 10fr;
+  height: 100vh ;
+}
+
+.data-pad {
+  padding-top: 10px ;
+}
+
+.pad-top-dome {
+  padding-top: 80px ;
+}
+
+.float-right {
+  float: right ;
+  /* width: 100% ; */
+}
+/* .hundread {
+  min-height: 100% ;
+} */
+.nav-header-dome {
+  display: flex ;
+  width: 100% ;
+}
+
+.add-btn-dome {
+  float: right ;
+}
+
+/* .test-d1 {
+  position: relative ;
+  height: 100% ;
+  width: 15% ;
+
+} */
+
+/* .nav-dome {
+  display: inline ;
+  z-index: 1000 ;
+} */
+
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
@@ -24310,6 +24413,7 @@ select {
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
+  /* color: #fff; */
 }
 
 .text-gray-600 {
@@ -24320,6 +24424,7 @@ select {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
+  /* color: #fff */
 }
 
 .text-gray-800 {
@@ -24330,6 +24435,7 @@ select {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
+  /* color: #fff; */
 }
 
 .text-red-50 {

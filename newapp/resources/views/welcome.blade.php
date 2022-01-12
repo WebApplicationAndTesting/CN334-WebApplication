@@ -78,13 +78,14 @@
             .poppins{font-family: 'Poppins', sans-serif}
             /* .white-txt{--text-opacity:1;color:#fff} */
             
+            
         </style>
 
-        <style>
+        <!-- <style>
             body {
                 font-family: 'Nunito';
             }
-        </style>
+        </style> -->
     </head>
     <body class="antialiased">
 
