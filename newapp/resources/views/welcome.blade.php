@@ -19,13 +19,13 @@
             video{max-width:100%;height:auto}
             .bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}
             .bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}
-            .bg-mycolor{--bg-opacity:1;background-color:#f5f5f5}
+            .bg-mycolor{--bg-opacity:1;background-image:url("images/bg.jpg")}
             .bg-black{--bg-opacity:1;background-color:#000}
             .border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}
             .border-t{border-top-width:1px}
             .flex{display:flex}
             .grid{display:grid}
-            .setsize{width: 790px;height:790px}
+            .setsize{width: 200px;height:200px}
             .hidden{display:none}
             .items-center{align-items:center}
             .justify-center{justify-content:center}
@@ -72,10 +72,10 @@
             /* .custom-m{margin-top:0} */
             /* .fix-position{flex:auto} */
             /* .c-a-t{position:absolute} */
-            .text {	text-transform: uppercase;background: linear-gradient(to right, #d0c330 5%, #330867 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent}
+            .text {font-family: 'Poppins', sans-serif;	text-transform: uppercase;background: linear-gradient(to right, #a0aec0 5%, #edf2f7 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent}
             .txt-center{text-align:center}
             .sp1{font-size:6.3rem;}
-            .poppins{font-family: 'Poppins', sans-serif}
+            .poppins{font-family: 'Poppins', sans-serif; color: #fff; text-align: center;padding: 0px 5px;border-radius: 12px;opacity: 0.5;}
             /* .white-txt{--text-opacity:1;color:#fff} */
             
             
@@ -110,12 +110,12 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="ml-12 fix-position">
-                    <div class="mt-4 sp1 text text-center poppins">
-                        BANANA.com
+                    <div class="mt-4 sp1 text text-center ">
+                        TO DO LIST
                     </div>
                 </div>
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0 setsize">
-                    <img src="{{ URL('images/banana.jpg') }}" alt="">
+                <div class="flex justify-center setsize py-center">
+                    <img src="{{ URL('images/icon2.png') }}" alt="">
                 </div>
             </div>
 
