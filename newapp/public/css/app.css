@@ -7015,7 +7015,7 @@ select {
 }
 
 .mr-72 {
-  margin-right: 18rem;
+  margin-right: 19rem;
 }
 
 .mr-80 {
@@ -8207,7 +8207,7 @@ select {
 }
 
 .max-h-screen {
-  max-height: 100vh;
+  max-height: 50vh;
 }
 
 .min-h-0 {
@@ -17005,6 +17005,11 @@ select {
 
 .focus\:border-opacity-100:focus {
   --tw-border-opacity: 1;
+}
+
+.bg-img{
+  --bg-opacity:1;
+  background-image:url("images/bg2.jpg")
 }
 
 .bg-transparent {
