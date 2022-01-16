@@ -16,7 +16,7 @@
                 <!-- Navigation Links -->
                 <li class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex font-dome1 fontstyle-dome1">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" class="fontcolor-dome1">
-                        {{ __('home') }}
+                        {{ __("let's see, what I have to do") }}
                     </x-jet-nav-link>
                 </li>
             </div>
