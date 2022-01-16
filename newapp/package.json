@@ -10,10 +10,12 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@mdi/font": "^6.5.95",
         "axios": "^0.21",
         "cross-env": "^7.0",
         "laravel-mix": "^6.0.1",
         "lodash": "^4.17",
+        "node-sass": "^7.0.1",
         "postcss-import": "^12.x",
         "resolve-url-loader": "^4.x",
         "tailwindcss": "^2.x",

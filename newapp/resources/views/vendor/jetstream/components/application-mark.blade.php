@@ -4,4 +4,4 @@
   
 </svg> -->
 
-<img src="{{ asset('/images/banana.jpg') }}" alt="" style="width: 60px;">
+<img src="{{ asset('/images/icon-list.png') }}" alt="" style="width: 50px;">

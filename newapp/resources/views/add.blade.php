@@ -100,7 +100,7 @@
                                 <span class="text-danger">{{ $errors->first('description') }}</span>
                             @endif
                         </div>
-                        <div style="display:flex;" class="grid-date-dome data-pad">
+                        <div class="grid-date-dome data-pad">
                             <div class="form-group">
                                 START
                                 <!-- <textarea name="date" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white"  placeholder='Date'></textarea>   -->

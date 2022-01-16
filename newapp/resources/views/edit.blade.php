@@ -104,7 +104,7 @@
                         <div class="grid-date-dome data-pad">
                             <div class="form-group">
                                 START
-                                <input type="date" name="date" value="" placeholder="dd-mm-yyyy" min="1997-01-01" max="2030-12-31" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-16 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">
+                                <input type="date" name="date" value="" placeholder="dd-mm-yyyy" min="1997-01-01" max="2030-12-31" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-12 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">
                                 <!-- <textarea name="date" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">{{$task->date }}</textarea>	 -->
                                 @if ($errors->has('date'))
                                     <span class="text-danger">{{ $errors->first('date') }}</span>
@@ -112,17 +112,18 @@
                             </div>
                             <div class="form-group">
                                 DEADLINE
-                                <input type="date" name="deadline" value="" placeholder="dd-mm-yyyy" min="1997-01-01" max="2030-12-31" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-16 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">
+                                <input type="date" name="deadline" value="" placeholder="dd-mm-yyyy" min="1997-01-01" max="2030-12-31" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-12 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">
                                 <!-- <textarea name="deadline" class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white">{{$task->deadline }}</textarea>	 -->
                                 @if ($errors->has('deadline'))
                                     <span class="text-danger">{{ $errors->first('deadline') }}</span>
                                 @endif
                             </div>
+                            <div style="align-self: flex-end;"class="form-group add-btn-dome">
+                                <button type="submit" name="update" class="btn-dome1 hover:bg-blue-700 text-white h-12 font-bold py-2 px-4 rounded">CONFIRM</button>
+                             </div>
                         </div>
                     </div>
-                    <div class="form-group add-btn-dome">
-                        <button type="submit" name="update" class="btn-dome1 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">CONFIRM</button>
-                    </div>
+                    
                 {{ csrf_field() }}
                 </form>
 

@@ -9,14 +9,14 @@
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
                     <div class="ml-4 text-sp font-dome1 fontstyle-dome1 fontsize-dome31">
-                        CN334
+                        To-do list
                     </div>
                 </div>
 
                 <!-- Navigation Links -->
                 <li class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex font-dome1 fontstyle-dome1">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')" class="fontcolor-dome1">
-                        {{ __('หน้าจดบันทึก') }}
+                        {{ __('home') }}
                     </x-jet-nav-link>
                 </li>
             </div>
