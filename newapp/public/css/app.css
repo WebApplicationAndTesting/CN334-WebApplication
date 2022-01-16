@@ -6618,6 +6618,10 @@ select {
   margin-bottom: -0.875rem;
 }
 
+.ml-0{
+  margin-left: 60%;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -7015,7 +7019,7 @@ select {
 }
 
 .mr-80 {
-  margin-right: 20rem;
+  margin-right: 22rem;
 }
 
 .mr-96 {
@@ -12048,6 +12052,10 @@ select {
 
 .justify-items-start {
   justify-items: start;
+}
+
+.justify-right {
+  justify-items: right;
 }
 
 .justify-items-end {

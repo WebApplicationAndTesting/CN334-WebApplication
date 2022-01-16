@@ -111,11 +111,11 @@
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="ml-12 fix-position">
                     <div class="mt-4 sp1 text text-center ">
-                        TO DO LIST
+                        TODO LIST
                     </div>
                 </div>
                 <div class="flex justify-center setsize py-center">
-                    <img src="{{ URL('images/icon2.png') }}" alt="">
+                    <!-- <img src="{{ URL('images/icon2.png') }}" alt=""> -->
                 </div>
             </div>
 
