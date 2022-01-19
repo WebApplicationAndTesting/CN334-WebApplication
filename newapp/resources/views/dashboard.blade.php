@@ -119,10 +119,10 @@
                                 </td>
                                 <td class="p-3 px-5 font-dome1">
                                     <form action="/task/{{$task->id}}" class="inline-block">
-                                        <button type="submit" name="delete" formmethod="POST" class="text-sm btn-dome1 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Done</button>
+                                        <button type="submit" name="delete" formmethod="POST" class="text-sm btn-dome1 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Done</button>
                                         {{ csrf_field() }}
                                     </form>
-                                    <a href="/task/{{$task->id}}" name="edit" class="mr-3 text-sm btn-dome2 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
+                                    <a href="/task/{{$task->id}}" name="edit" class="mr-3 text-sm btn-dome2 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
                                 </td>
                             </tr>
 
