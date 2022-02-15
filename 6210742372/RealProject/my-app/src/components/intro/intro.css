@@ -1,3 +1,82 @@
 .intro {
-    background-color: lightpink;
+    background-color: white;
+    display: flex;
+}
+
+.leftIntro {
+    flex: 0.55;
+    overflow: hidden;
+    position: relative;
+}
+
+.leftIntro .wrapperIntro {
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftIntro .wrapperIntro h1 {
+    font-size: 120px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.leftIntro .wrapperIntro h2 {
+    font-size: 90px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.leftIntro .wrapperIntro h3 {
+    font-size: 60px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.leftIntro .wrapperIntro h3 span{
+    font-size: inherit;
+    color: rgb(212, 47, 80);
+}
+
+
+.leftIntro a {
+    position: absolute;
+    bottom: 10px;
+    left: 60%;
+}
+
+.leftIntro a img {
+    width: 60px;
+    animation: arrowBlink 2s infinite;
+}
+
+@keyframes arrowBlink {
+    100%{
+        opacity: 0;
+    }
+}
+
+.rightIntro {
+    flex: 0.45;
+    overflow: hidden;
+
+}
+
+.rightIntro .imgContainerR {
+    margin-top: 50px;
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(90deg, rgb(248, 180, 91), rgb(223, 51, 51));
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    float:right;
+}
+
+.rightIntro .imgContainerR img {
+    height: 100%;
 }
