@@ -42,10 +42,10 @@ const Skill = () => {
     return (
         <div className='testimonials' id="testimonials">
             <h1>Technical Skills</h1>
-            <div className="button-zone">
+            {/* <div className="button-zone">
               <button className="add">ADD</button>
               <button className="edit">EDIT</button>
-            </div>
+            </div> */}
             <div className="container">
                 {data.map((d) => (
                 <div className={d.featured ? "card featured" : "card"}>

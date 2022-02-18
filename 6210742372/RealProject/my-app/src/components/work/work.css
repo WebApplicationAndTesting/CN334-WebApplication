@@ -1,5 +1,5 @@
 .work {
-    background-color: crimson;
+    background: linear-gradient(white, rgb(250, 217, 145), rgb(250, 204, 145), rgb(231, 156, 126),rgb(231, 126, 126));
     display: flex;
     align-items: center;
     justify-content: center;

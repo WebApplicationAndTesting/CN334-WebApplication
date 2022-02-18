@@ -13,17 +13,17 @@ const Portfolio = () => {
                     <h3>Calobite</h3>
                 </div>
                 <div className="item">
-                    <img src="asset/KubKao.png" alt="" />
+                    <img src="asset/covid.png" alt="" />
                     <h3>Covid Visualization</h3>
                 </div>
   
                 <div className="item">
-                    <img src="asset/KubKao.png" alt="" />
+                    <img src="asset/moc.png" alt="" />
                     <h3>MOC Application</h3>
                 </div>
 
                 <div className="item">
-                    <img src="asset/KubKao.png" alt="" />
+                    <img src="asset/travel.png" alt="" />
                     <h3>Travel Application</h3>
                 </div>
             </div>

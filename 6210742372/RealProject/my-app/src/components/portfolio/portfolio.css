@@ -18,7 +18,7 @@
 }
 
 .active {
-    background-color: #15023a;
+    background-color: #3a0202;
     color: #fff;
 }
 
@@ -61,7 +61,7 @@
  }
 
 .container-portfolio .item:hover{
-     background-color: #15023a;
+     background-color: #3a0202;
  }
 
  .container-portfolio .item:hover img{

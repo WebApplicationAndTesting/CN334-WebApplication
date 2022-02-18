@@ -32,6 +32,8 @@
     justify-content:baseline;
     padding: 30px;
     transition: all 1s ease;
+    background: linear-gradient(90deg, rgb(255, 209, 148), rgb(218, 104, 104));
+    
 }
 
 .testimonials .container .card.featured{
@@ -49,7 +51,7 @@
     padding: 10px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(235, 225, 227);
+    background-color: rgb(255, 214, 214);
 }
 
 .testimonials .container .card .bottom{
