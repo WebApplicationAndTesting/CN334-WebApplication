@@ -1,5 +1,5 @@
 import "./topbar.css"
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail, LinkedIn} from "@material-ui/icons"
 
 const Topbar = ({menuOpen, setMenuOpen}) => {
     return (
@@ -8,12 +8,16 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
                 <div className="left">
                     <a href="#intro" className="logo">Portfolio</a>
                     <div className="itemContainer">
-                        <Person className="icon"/>
+                        <Person className="icon" />
                         <span className="spanData">085 589 4133</span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>
                         <span className="spanData">thanapon.workdev@gmail.com</span>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="https://www.linkedin.com/in/thanapon-puakalong/"><LinkedIn className="icon"/></a>
+                        <span className="spanData">www.linkedin.com/in/thanapon-puakalong/</span>
                     </div>
                 </div>
                 <div className="right">

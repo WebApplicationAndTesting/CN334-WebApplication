@@ -9,7 +9,7 @@ const Portfolio = () => {
 
             <div className="container-portfolio">
                 <div className="item">
-                    <img src="asset/KubKao.png" alt="" />
+                    <img src="asset/calobite.png" alt="" />
                     <h3>Calobite</h3>
                 </div>
                 <div className="item">

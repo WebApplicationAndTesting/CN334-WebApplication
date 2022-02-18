@@ -2,7 +2,7 @@ import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Work from './components/work/Work';
-import Testimonials from './components/testimonials/Testimonials';
+import Skill from './components/skill/Skill';
 import Contact from './components/contact/Contact';
 import { useState } from 'react';
 import Menu from './components/menu/Menu';
@@ -18,10 +18,10 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections'>
         <Intro />
+        <Contact />
+        <Skill />
         <Portfolio />
         <Work />
-        <Testimonials />
-        <Contact />
       </div>
     </div>
   );
