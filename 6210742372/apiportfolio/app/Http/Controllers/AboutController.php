@@ -15,4 +15,15 @@ class AboutController extends Controller
             'aboutme'=>$aboutme
         ]);
     }
+
+    public function update(Request $request) {
+        $aboutme = Aboutme::find(1);
+        $aboutme->desc = $request->input('data');
+        $aboutme->update();
+
+        return response()->json([
+            'status'=>200,
+            'message'=>'Success'
+        ]);
+    }
 }

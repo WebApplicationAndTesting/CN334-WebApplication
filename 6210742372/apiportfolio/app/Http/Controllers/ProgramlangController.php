@@ -15,4 +15,15 @@ class ProgramlangController extends Controller
             'programlang'=>$programlang
         ]);
     }
+
+    public function store(Request $request) {
+        $programlang = new Programlang;
+        $programlang->lang = $request->input('data');
+        $programlang->save();
+
+        return response()->json([
+            'status'=>200,
+            'message'=>'Success'
+        ]);
+    }
 }

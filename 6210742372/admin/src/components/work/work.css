@@ -1,0 +1,8 @@
+.work {
+    background: linear-gradient(white, rgb(255, 251, 244), rgb(255, 228, 193));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 500px;
+}

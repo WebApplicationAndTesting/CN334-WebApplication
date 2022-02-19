@@ -5,13 +5,6 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
-                <div className="right">
-                    <div className="hamburger" onClick = {()=>setMenuOpen(!menuOpen)}>
-                        <span className="one"></span>
-                        <span className="two"></span>
-                        <span className="three"></span>
-                    </div>
-                </div>
                 <div className="left">
                     <a href="#intro" className="logo">Portfolio</a>
                     <div className="itemContainer">
@@ -25,6 +18,13 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
                     <div className="itemContainer">
                         <a href="https://www.linkedin.com/in/thanapon-puakalong/"><LinkedIn className="icon"/></a>
                         <span className="spanData">www.linkedin.com/in/thanapon-puakalong/</span>
+                    </div>
+                </div>
+                <div className="right">
+                    <div className="hamburger" onClick = {()=>setMenuOpen(!menuOpen)}>
+                        <span className="one"></span>
+                        <span className="two"></span>
+                        <span className="three"></span>
                     </div>
                 </div>
             </div>

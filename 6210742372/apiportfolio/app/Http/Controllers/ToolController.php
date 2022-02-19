@@ -15,4 +15,15 @@ class ToolController extends Controller
             'tools'=>$tools
         ]);
     }
+
+    public function store(Request $request) {
+        $tools = new Tools;
+        $tools->tool = $request->input('data');
+        $tools->save();
+
+        return response()->json([
+            'status'=>200,
+            'message'=>'Success'
+        ]);
+    }
 }

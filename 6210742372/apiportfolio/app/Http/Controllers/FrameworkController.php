@@ -18,7 +18,7 @@ class FrameworkController extends Controller
 
     public function store(Request $request) {
         $framework = new Framework;
-        $framework->framework = $request->input('framework');
+        $framework->framework = $request->input('data');
         $framework->save();
 
         return response()->json([
