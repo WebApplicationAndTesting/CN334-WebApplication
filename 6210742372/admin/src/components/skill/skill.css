@@ -3,10 +3,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
-.testimonials .button-zone {
-    overflow: hidden;
+.testimonials form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testimonials form input{
+    width: 300px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 3px solid gray;
+}
+
+.testimonials form button{
+    border-radius: 50%;
+    border: none;
 }
 
 .testimonials h1 {
@@ -14,13 +30,13 @@
     overflow: hidden;
 }
 
-.testimonials .container {
-    width: 100%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.testimonials h3 {
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
 }
+
+
 
 
 

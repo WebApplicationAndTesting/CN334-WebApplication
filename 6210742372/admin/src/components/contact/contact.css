@@ -1,10 +1,20 @@
 .contact {
     background-color: white;
     text-align: center;
+    transition: all 1s ease;
+}
+
+.contact .aboutdesc{
+   margin-bottom: 100px;
 }
 
 .contact h2 {
     font-size: 80px;
+    overflow: hidden;
+}
+
+.contact h4 {
+    overflow: hidden;
 }
 
 .contact form {
@@ -14,7 +24,7 @@
     
 }
 
-.contact form input{
+.contact form .textinput{
     width: 500px;
     height: 300px;
     justify-content: center;
@@ -22,10 +32,11 @@
 }
 
 .contact form button {
-    /* display: inline-block; */
+    width: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 10px;
 }
 
 

@@ -1,7 +1,9 @@
 .intro {
     background-color: white;
     /* display: flex; */
+    transition: all 1s ease;
 }
+
 
 
 

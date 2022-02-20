@@ -48,14 +48,16 @@ class Contact extends Component {
         return (
             <div className='contact' id="contact">
                 <h2>About me</h2>
-                <div>
+                <div className="aboutdesc">
                     <h3>Current description</h3>
                     <h4>{about_desc}</h4>
-                </div>
+                </div >
                 <h2>Edit description</h2>
                 <form>
-                    <input name="editInput" onChange={this.handleInput} value={this.state.aboutmeEdit}></input>
-                    <button type="submit" onClick={this.update}>Edit</button>
+                    <input className="textinput" name="editInput" onChange={this.handleInput} value={this.state.aboutmeEdit}></input>
+                    <div>
+                        <button type="submit" onClick={this.update}>Edit</button>
+                    </div>
                 </form>
             </div>
         );
