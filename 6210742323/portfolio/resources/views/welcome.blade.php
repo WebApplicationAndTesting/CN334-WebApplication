@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,8 @@
             html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}
             svg,video{display:block;vertical-align:middle}
             video{max-width:100%;height:auto}
-            .bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}
-            .bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}
+            .bg-white {--tw-bg-opacity: 1;background-color: rgba(255, 255, 255, var(--tw-bg-opacity));}
+            .bg-gray-100{--bg-opacity:1;background-color:#cbd5e0;background-color:rgba(247,250,252,var(--bg-opacity))}
             .bg-mycolor{--bg-opacity:1;background-image:url("images/bg.jpg")}
             .bg-black{--bg-opacity:1;background-color:#000}
             .border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}
@@ -78,7 +79,25 @@
             .poppins{font-family: 'Poppins', sans-serif; color: #4a5568; text-align: center;padding: 0px 5px;border-radius: 12px;opacity: 0.5;}
             /* .white-txt{--text-opacity:1;color:#fff} */
             
-            
+            .shadow-xl {--tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);}           
+            .overflow-hidden {overflow: hidden;}
+            .rounded-lg {border-radius: 0.5rem;}
+            .py-8 {padding-top: 2rem;padding-bottom: 2rem;}
+            .px-5 {padding-left: 1.25rem;padding-right: 1.25rem;}
+            #name{
+                color: #718096;
+                text-align: center;
+                font-family: "Lucida Console", "Courier New", monospace;
+                /* font-weight: bold; */
+                font-size: 35px;
+            }
+            #parn{
+                display: block; 
+                width:200px; 
+                border-radius: 50%; 
+                margin-left: auto; 
+                margin-right: auto;
+            }
         </style>
 
         <!-- <style>
@@ -91,10 +110,10 @@
 
         
 
-        <div class="relative flex justify-center min-h-screen bg-mycolor sm:items-center sm:pt-0">
+        <div class="relative flex justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
             
             
-            @if (Route::has('login'))
+            <!-- @if (Route::has('login'))
                 <div class="hidden fixed bottom px-center py-center sm:block">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
@@ -106,18 +125,38 @@
                         @endif
                     @endif
                 </div>
-            @endif
+            @endif -->
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="ml-12 fix-position">
-                    <div class="mt-4 sp1 text text-center ">
-                        PORTFOLIO
-                    </div>
+            <div class="py-12">
+
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg py-8 px-5 ">
+                <!-- <img src="{asset('/6210742323/portfolio/public/images/parn.jpg')}" alt="" width="250" height="250"> -->
+                <div id="name">
+                    PAPHASSORN LERSBANCHORN
                 </div>
-                <div class="flex justify-center setsize py-center">
-                    <!-- <img src="{{ URL('images/icon2.png') }}" alt=""> -->
+                <img id="parn"src="{{ URL('images/parn.jpg') }}" alt="Parn">
+                <br>
+                <div>
+                    <li class="text-center">
+                        <a href="https://github.com/Paphassorn2323">GitHub</a>
+                    </li>
                 </div>
             </div>
+            <br>
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg py-8 px-5 text-center">
+                 <p class ="py-7">
+                    “My name is Parn, 21 years old 3rd years Bachelor’s degree Software engineering student at Thammasat University, <br>
+                    Well-versed in the software development lifecycle, Web application and Mobile application design and <br>
+                    development. My purpose for the internship is to enhance my professional skills, work in the real business world, <br>
+                    and learn about the company’s business process. I am quite a creative thinking, be positive, enthusiastic, <br>
+                    open-minded person. Be loving to keep learnings, and never give up in challenging situations.”<br>
+                    
+                </p>   
+                
+            </div>
+        </div>
+    </div>
 
         </div>
     </body>
