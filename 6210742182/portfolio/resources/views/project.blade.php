@@ -35,7 +35,7 @@
                 animation-duration: 2s;
                 color: #7d7462;
             }
-            ul {
+            #nav {
                 display: flex;
                 justify-content: space-around;
                 list-style-type: none;
@@ -45,15 +45,15 @@
                 color:Tomato;
             }
 
-            li a {
+            #nav li a {
                 color: #B8BE7C;
             }
 
-            li a:hover {
+            #nav li a:hover {
                 color: #7d7462;
             }
 
-            li {
+            #nav li {
                 display: inline;
             }
 
@@ -165,13 +165,32 @@
                     <div id="name">
                         SUTHASINEE WONGSRICHA
                     </div>
-                    <ul>
+                    <ul id="nav">
                         <li><a href="{{ url('/') }}">Profile</a></li>
-                        <li><a href="{{ url('/project') }}">Project</a></li>
+                        <li><a href="{{ url('/dashboard') }}">Project</a></li>
                         <li><a href="https://github.com/siny2000">Git</a></li>
                     </ul>
                     </br>
-                    <div id="details" style="display:flex; justify-content:space-around;">
+                    <div id="proj">
+                        <ul>
+                            <li>Shop online website</li>
+                            <li>Car gallery website</li>
+                            <li>MOC application</li>
+                            <li>Covid-19 application</li>
+                            <li>Game</li>
+                        </ul>
+                    
+<!-- Front end developer using Vue.js framework
+Car gallery website 
+Front end developer using React.js framework
+MOC application 
+Front end developer using React native framework 
+Covid-19 application 
+Front end developer using React native framework 
+Game 
+Using Java -->
+                    </div>
+                    <!-- <div id="details" style="display:flex; justify-content:space-around;">
                         <div style="width:35%">
                             <h2>Introduction</h2>
                             <p>I am a software engineering student. Now, I am interested in software testing. I would like to learn about the new things and also improve my skills.</p>
@@ -180,7 +199,7 @@
                             <h2>Education</h2>
                             <p>Software Engineering @Thammasat University | 2019 - Current | GPA 3.71</p>  
                         </div>
-                    </div>
+                    </div> -->
                 
                 </div>
                 <div class="flex justify-center setsize py-center">
