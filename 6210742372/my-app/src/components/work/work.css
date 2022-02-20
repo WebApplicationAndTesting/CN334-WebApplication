@@ -62,6 +62,15 @@
     justify-content: space-between;
 }
 
+.work .slider .containerWork .item .left .leftContainer h1{
+    overflow: hidden;
+}
+
+.work .slider .containerWork .item .left .leftContainer h4{
+    font-size: 22px;
+    overflow: hidden;
+}
+
 .work .slider .containerWork .item .left .leftContainer .imgContainer{
     width: 40px;
     height: 40px;

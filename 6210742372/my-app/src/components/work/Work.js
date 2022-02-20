@@ -12,7 +12,7 @@ const Work = () => {
         icon: "./asset/globe.png",
         title: "Web Design",
         desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "I have a lot of experience writing web applications. And also has the ability to use a variety of tools is excellent.",
         img:
             "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
         },
@@ -21,7 +21,7 @@ const Work = () => {
         icon: "./asset/mobile.png",
         title: "Mobile Application",
         desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "I have experience working with clients. and develop a phone application to come out that can actually be used",
         img:
             "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
         },
@@ -54,10 +54,8 @@ const Work = () => {
                                 <div className='imgContainer'>
                                     <img src={d.icon} alt='' />
                                 </div>
-                                <h2>{d.title}</h2>
-                                <p>
-                                    {d.desc}
-                                </p>
+                                <h1>{d.title}</h1>
+                                <h4>{d.desc}</h4>
                             </div>
                         </div>
                         <div className='right'>
