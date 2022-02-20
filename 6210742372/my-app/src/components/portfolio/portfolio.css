@@ -1,5 +1,5 @@
 .portfolio {
-    background-color: #fff;
+    background-color: #fee2b3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +8,7 @@
 .portfolio h1 {
     font-size: 80px;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 .portfolio ul {

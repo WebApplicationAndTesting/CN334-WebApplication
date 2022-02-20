@@ -1,5 +1,5 @@
 .intro {
-    background-color: white;
+    background: linear-gradient(#C9753D, #EB8242);
     /* display: flex; */
     transition: all 1s ease;
 }
@@ -19,9 +19,81 @@
 }
 
 .wrapperIntro h1 {
-    font-size: 400px;
+    font-size: 300px;
     margin: 10px 0;
     overflow: hidden;
+    color: #F2EEE5;
+    
 }
 
+.wrapperIntro a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+.wrapperIntro a::before,
+.wrapperIntro a::after {
+   content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    
+  }
 
+.wrapperIntro  a::before {
+    background-color: #fdfc9afb;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    
+  }
+.wrapperIntro a::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #f0ed4bfb;
+    
+  }
+
+.wrapperIntro a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+    
+  }
+.wrapperIntro a:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+  
+ .wrapperIntro  a span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    overflow: hidden;
+
+  }
+  
+  .wrapperIntro a:hover span {
+    transform: translate3d(-200%, 0, 0);
+  }
+  
+  /* Presentational Styles */
+  .wrapperIntro body {
+    display: grid;
+    font-size: 27px;
+    line-height: 1.5;
+    height: 100vh;
+    place-items: center;
+  }
+  
+  .wrapperIntro  a {
+    text-decoration: none;
+    color: #F2EEE5;
+    font-weight: 700;
+    vertical-align: top;
+  }

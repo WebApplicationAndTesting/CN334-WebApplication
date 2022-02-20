@@ -1,5 +1,5 @@
 .contact {
-    background-color: white;
+    background-color: #fee2b3;
     display: flex;
 }
 
@@ -12,6 +12,9 @@
     height: 90%;
     margin-left: auto;
     border-radius: 20%;
+    border: 5px solid transparent;
+    border-color: #562349;
+    opacity: 0.78;
 }
 
 .contact .right {
@@ -26,9 +29,11 @@
     margin-top: 100px;
     font-size: 80px;
     overflow: hidden;
+    color: #562349;
 }
 
 .contact .right h4 {
     overflow: hidden;
     font-size: 25px;
+    color: #a83169;
 }

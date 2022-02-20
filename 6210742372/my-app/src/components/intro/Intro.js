@@ -21,7 +21,7 @@ const Intro = () => {
         <div className='intro' id="intro">
             <div className="leftIntro">
                 <div className="wrapperIntro">
-                    <h2>Hello Guy, My Name</h2>
+                    <h2>Hello Guy, My Name Is</h2>
                     <h1>Thanapon Puakalong</h1>
                     <h3>
                         <span ref={textRef}></span> 

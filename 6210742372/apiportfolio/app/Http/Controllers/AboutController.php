@@ -20,7 +20,6 @@ class AboutController extends Controller
         $aboutme = Aboutme::find(1);
         $aboutme->desc = $request->input('data');
         $aboutme->update();
-
         return response()->json([
             'status'=>200,
             'message'=>'Success'

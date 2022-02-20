@@ -1,17 +1,14 @@
 .testimonials {
-    background-color: white;
+    background-color: #fee2b3;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.testimonials .button-zone {
-    overflow: hidden;
-}
-
 .testimonials h1 {
     font-size: 80px;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 .testimonials .container {
@@ -30,9 +27,9 @@
     display: flex;
     flex-direction: column;
     justify-content:baseline;
-    padding: 30px;
+    padding: 40px;
     transition: all 1s ease;
-    background: linear-gradient(90deg, rgb(255, 209, 148), rgb(218, 104, 104));
+    background: #562349;
     
 }
 
@@ -51,7 +48,7 @@
     padding: 10px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(255, 214, 214);
+    background-color: rgb(255, 239, 214);
 }
 
 .testimonials .container .card .bottom{
@@ -59,6 +56,8 @@
     align-items: center;
     overflow: hidden;
     justify-content: center;
+    color: rgb(243, 243, 243);
+
 }
 
 .testimonials .container .card .bottom h3{

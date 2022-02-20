@@ -31,8 +31,8 @@ const Work = () => {
         title: "Contact",
         desc:
             "ADDRESSES : 32 Kumpil 3 Rd. Nakhon Pathom, Thailand",
-        // img:
-        //     "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        img:
+            "asset/map.png",
         }
     ];
 

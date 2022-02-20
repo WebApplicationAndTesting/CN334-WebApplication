@@ -1,7 +1,8 @@
 .contact {
-    background-color: white;
+    background: linear-gradient(#EB8242, #E6A157);
     text-align: center;
     transition: all 1s ease;
+    color: #F2EEE5;
 }
 
 .contact .aboutdesc{
@@ -11,6 +12,7 @@
 .contact h2 {
     font-size: 80px;
     overflow: hidden;
+    margin-top: 40px;
 }
 
 .contact h4 {
@@ -29,6 +31,8 @@
     height: 300px;
     justify-content: center;
     align-items: center;
+    background-color: #E7F0C3;
+    border: none;
 }
 
 .contact form button {

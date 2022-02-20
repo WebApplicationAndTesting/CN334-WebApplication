@@ -1,9 +1,10 @@
 .testimonials {
-    background-color: white;
+    background: #E6A157;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color: #F2EEE5;
 }
 
 .testimonials form{
@@ -18,6 +19,7 @@
     border-top: 0;
     border-left: 0;
     border-bottom: 3px solid gray;
+    background-color: #E7F0C3;
 }
 
 .testimonials form button{
