@@ -27,9 +27,6 @@ class LivewireManager
     ];
 
     public static $isLivewireRequestTestingOverride = false;
-    
-    public static $currentCompilingViewPath;
-    public static $currentCompilingChildCounter;
 
     public function component($alias, $viewClass = null)
     {
@@ -372,7 +369,7 @@ HTML;
                 return str(request('fingerprint')['url'])->after(request()->root());
             }
 
-            return request('fingerprint.path');
+            return request('fingerprint')['path'];
         }
 
         return request()->path();
@@ -389,7 +386,7 @@ HTML;
                 return 'GET';
             }
 
-            return request('fingerprint.method', 'POST');
+            return request('fingerprint')['method'];
         }
 
         return request()->method();
@@ -459,10 +456,6 @@ HTML;
 
     public function flushState()
     {
-        static::$isLivewireRequestTestingOverride = false;
-        static::$currentCompilingChildCounter = null;
-        static::$currentCompilingViewPath = null;
-        
         $this->shouldDisableBackButtonCache = false;
 
         $this->dispatch('flush-state');

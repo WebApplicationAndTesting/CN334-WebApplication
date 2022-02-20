@@ -2,17 +2,6 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## [9.2.11] - 2022-02-18
-
-### Changed
-
-* `CoveredFileAnalyser` and `UncoveredFileAnalyser` have been combined to `FileAnalyser`
-* Updated bundled CSS/JavaScript components used for HTML report: Bootstrap 4.6.1, jQuery 3.6.0, and popper.js 1.16.1
-
-### Fixed
-
-* [#889](https://github.com/sebastianbergmann/php-code-coverage/issues/889): Code Coverage depends on autoload order
-
 ## [9.2.10] - 2021-12-05
 
 ### Fixed
@@ -297,7 +286,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Changed
 
-* Updated bundled CSS/JavaScript components used for HTML report: Bootstrap 4.3.1, jQuery 3.4.1, and popper.js 1.15.0
+* Update HTML report Bootstrap 4.3.1, jQuery 3.4.1, and popper.js 1.15.0
 
 ## [7.0.7] - 2019-07-25
 
@@ -333,7 +322,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Changed
 
-* Updated bundled CSS/JavaScript components used for HTML report: Bootstrap 4.3.0
+* Updated HTML report to Bootstrap 4.3.0
 
 ### Fixed
 
@@ -360,7 +349,6 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 * This component is no longer supported on PHP 7.1
 
-[9.2.11]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.10...9.2.11
 [9.2.10]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.9...9.2.10
 [9.2.9]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.8...9.2.9
 [9.2.8]: https://github.com/sebastianbergmann/php-code-coverage/compare/9.2.7...9.2.8

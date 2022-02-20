@@ -111,10 +111,6 @@ class Livewire {
             this.components.addComponent(new Component(el, this.connection))
         })
     }
-
-    onPageExpired(callback) {
-        this.components.sessionHasExpiredCallback = callback
-    }
 }
 
 if (!window.Livewire) {

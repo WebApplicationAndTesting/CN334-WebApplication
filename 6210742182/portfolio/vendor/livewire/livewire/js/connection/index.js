@@ -17,14 +17,10 @@ export default class Connection {
         return componentStore.onErrorCallback(status, response)
     }
 
-    showExpiredMessage(response, message) {
-        if (store.sessionHasExpiredCallback) {
-            store.sessionHasExpiredCallback(response, message)
-        } else {
-            confirm(
-                'This page has expired.\nWould you like to refresh the page?'
-            ) && window.location.reload()
-        }
+    showExpiredMessage() {
+        confirm(
+            'This page has expired due to inactivity.\nWould you like to refresh the page?'
+        ) && window.location.reload()
     }
 
     sendMessage(message) {
@@ -77,7 +73,7 @@ export default class Connection {
 
                         store.sessionHasExpired = true
 
-                        this.showExpiredMessage(response, message)
+                        this.showExpiredMessage()
                     } else {
                         response.text().then(response => {
                             this.showHtmlModal(response)

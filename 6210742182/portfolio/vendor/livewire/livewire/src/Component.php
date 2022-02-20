@@ -33,7 +33,7 @@ abstract class Component
     protected $shouldSkipRender = null;
     protected $preRenderedView;
     protected $forStack = [];
-
+    
     public function __construct($id = null)
     {
         $this->id = $id ?? str()->random(20);
@@ -52,7 +52,7 @@ abstract class Component
         // For some reason Octane doesn't play nice with the injected $route.
         // We need to override it here. However, we can't remove the actual
         // param from the method signature as it would break inheritance.
-        $route = request()->route() ?? $route;
+        $route = request()->route();
 
         try {
             $componentParams = (new ImplicitRouteBinding($container))
@@ -98,7 +98,7 @@ abstract class Component
     public function bootIfNotBooted()
     {
         if (method_exists($this, $method = 'boot')) {
-            ImplicitlyBoundMethod::call(app(), [$this, $method]);
+            ImplicitlyBoundMethod::call(app(), [$this, $method]); 
         }
     }
 
@@ -163,9 +163,7 @@ abstract class Component
 
     public function renderToView()
     {
-        if ($this->shouldSkipRender) {
-            return $this->keepRenderedChildren();
-        }
+        if ($this->shouldSkipRender) return null;
 
         Livewire::dispatch('component.rendering', $this);
 
@@ -273,17 +271,6 @@ abstract class Component
     public function getForStack()
     {
         return $this->forStack;
-    }
-    
-    function __isset($property)
-    {
-        try {
-            $this->__get($property);
-            return true;
-        } catch(PropertyNotFoundException $ex) {
-            return false;
-        }
-        return false;
     }
 
     public function __get($property)

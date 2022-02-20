@@ -64,8 +64,8 @@ class HttpConnectionHandler extends ConnectionHandler
     {
         $request = Request::create($url, $method);
 
-        if (request()->hasSession()) {
-            $request->setLaravelSession(request()->session());
+        if ($session = request()->getSession()) {
+            $request->setLaravelSession($session);
         }
 
         $request->setUserResolver(request()->getUserResolver());

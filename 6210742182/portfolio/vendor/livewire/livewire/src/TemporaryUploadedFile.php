@@ -6,7 +6,6 @@ use Illuminate\Support\Arr;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Storage;
-use League\MimeTypeDetection\FinfoMimeTypeDetector;
 
 class TemporaryUploadedFile extends UploadedFile
 {
@@ -24,17 +23,17 @@ class TemporaryUploadedFile extends UploadedFile
         parent::__construct(stream_get_meta_data($tmpFile)['uri'], $this->path);
     }
 
-    public function getPath(): string
+    public function getPath()
     {
         return $this->storage->path(FileUploadConfiguration::directory());
     }
 
-    public function isValid(): bool
+    public function isValid()
     {
         return true;
     }
 
-    public function getSize(): int
+    public function getSize()
     {
         if (app()->runningUnitTests() && str($this->getfilename())->contains('-size=')) {
             return (int) str($this->getFilename())->between('-size=', '.')->__toString();
@@ -43,32 +42,22 @@ class TemporaryUploadedFile extends UploadedFile
         return (int) $this->storage->size($this->path);
     }
 
-    public function getMimeType(): string
+    public function getMimeType()
     {
-        $mimeType = $this->storage->mimeType($this->path);
-
-        // Flysystem V2.0+ removed guess mimeType from extension support, so it has been re-added back
-        // in here to ensure the correct mimeType is returned when using faked files in tests
-        if (in_array($mimeType, ['application/octet-stream', 'inode/x-empty', 'application/x-empty'])) {
-            $detector = new FinfoMimeTypeDetector();
-
-            $mimeType = $detector->detectMimeTypeFromPath($this->path) ?: 'text/plain';
-        }
-
-        return $mimeType;
+        return $this->storage->mimeType($this->path);
     }
 
-    public function getFilename(): string
+    public function getFilename()
     {
         return $this->getName($this->path);
     }
 
-    public function getRealPath(): string
+    public function getRealPath()
     {
         return $this->storage->path($this->path);
     }
 
-    public function getClientOriginalName(): string
+    public function getClientOriginalName()
     {
         return $this->extractOriginalNameFromFilePath($this->path);
     }
