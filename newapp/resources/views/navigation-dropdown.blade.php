@@ -20,7 +20,7 @@
                     </x-jet-nav-link>
                 </li>
                 <div style="width: 100%; margin-top: 10px">
-                <a href="https://www.facebook.com/sharer.php?u=http://127.0.0.1:8000/dashboard"id="shareFB" ><img style="margin-left:35px" src="images/facebook.png" alt="Girl in a jacket" width="50" height="50"></a>
+                <a href="https://www.facebook.com/sharer.php?u=http://127.0.0.1:8000/dashboard"id="shareFB" ><img style="margin-left:35px" src="images/facebook.png" alt="facebook" width="50" height="50"></a>
             </div>
             </div>
 
