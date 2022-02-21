@@ -13,7 +13,7 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
                     </div>
                 </div>
                 <div className="left">
-                    <a href="#intro" className="logo">Portfolio</a>
+                    <a href="http://localhost:4000/" className="logo">Portfolio</a>
                     <div className="itemContainer">
                         <Person className="icon" />
                         <span className="spanData">085 589 4133</span>
