@@ -6,11 +6,12 @@
 .contact .left {
     flex: 1;
     overflow: hidden;
+    text-align: right;
 }
 
 .contact .left img{
     height: 90%;
-    margin-left: auto;
+    margin-top: 50px;
     border-radius: 20%;
     border: 5px solid transparent;
     border-color: #562349;
@@ -21,18 +22,31 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 100px;
+    /* align-items: center; */
+    text-align: left;
     /* justify-content: center; */
 }
 
 .contact .right h2{
-    margin-top: 100px;
+    margin-top: 130px;
     font-size: 80px;
     overflow: hidden;
     color: #562349;
 }
 
-.contact .right h4 {
+.contact .right h4{
+    overflow: hidden;
+    font-size: 25px;
+    color: #a83169;
+}
+
+.contact .right .educate2 {
+    margin-top: 30px;
+}
+
+.contact .right span {
+    display: block;
     overflow: hidden;
     font-size: 25px;
     color: #a83169;

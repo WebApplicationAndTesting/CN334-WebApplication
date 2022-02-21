@@ -6,7 +6,7 @@ const Topbar = ({menuOpen, setMenuOpen}) => {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Portfolio</a>
+                    <a href="http://localhost:3000/" className="logo">Portfolio</a>
                     <div className="itemContainer">
                         <Person className="icon" />
                         <span className="spanData">085 589 4133</span>

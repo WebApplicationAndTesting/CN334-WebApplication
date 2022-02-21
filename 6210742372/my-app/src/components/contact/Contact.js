@@ -31,12 +31,16 @@ class Contact extends Component {
                     <h4>{about_desc}</h4>
                     <h2>Education</h2>
                     <div>
-                        <h4>Suankularb Wittayalai School (2012 - 2018)</h4>
-                        <h4>Gifted and Talent Education Program</h4>
-                        <h4>GPAX : 3.82</h4>
-                        <h4>Thammasat University (2019 - current)</h4>
-                        <h4>Faculty of Engineering, Software Engineering</h4>
-                        <h4>Current GPAX : 3.89</h4>
+                        <div className="educate1">
+                            <span>Suankularb Wittayalai School (2012 - 2018)</span>
+                            <span>Gifted and Talent Education Program</span>
+                            <span>GPAX : 3.82</span>
+                        </div>
+                        <div className="educate2">
+                            <span>Thammasat University (2019 - current)</span>
+                            <span>Faculty of Engineering, Software Engineering</span>
+                            <span>Current GPAX : 3.89</span>
+                        </div>
                     </div>
                 </div>
             </div>
