@@ -137,5 +137,15 @@
         </div>
     </div>
 
+    <!-- <script>
+    $(document).ready(function() {
+
+        $('#shareFB').click(function() {
+            alert("wer");
+            window.open('https://www.facebook.com/sharer/sharer.php?=');
+        });
+    })
+</script> -->
 
 </x-app-layout>
+
