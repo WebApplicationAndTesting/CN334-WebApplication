@@ -14,7 +14,7 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
 
-class VediosTest extends TestCase
+class VideosTest extends TestCase
 {
     use RefreshDatabase, WithFaker;
 
