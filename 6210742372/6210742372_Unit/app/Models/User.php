@@ -47,8 +47,11 @@ class User extends Authenticatable
         return $this->hasOne(Phone::class);
     }
 
-    public function roles() 
-    { 
+    public function roles() { 
         return $this->belongsToMany(Comment::class); 
+    }
+
+    public function image() { 
+        return $this->morphOne(Image::class, 'imageable'); 
     }
 }
