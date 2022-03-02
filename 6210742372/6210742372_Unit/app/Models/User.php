@@ -44,6 +44,11 @@ class User extends Authenticatable
     ];
 
     public function phone() {
-        return $thus->hasOne(Phone::class);
+        return $this->hasOne(Phone::class);
+    }
+
+    public function roles() 
+    { 
+        return $this->belongsToMany(Comment::class); 
     }
 }
