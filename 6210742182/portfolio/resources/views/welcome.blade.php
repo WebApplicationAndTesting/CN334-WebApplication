@@ -159,7 +159,7 @@
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="ml-12 fix-position" style="width:70%; margin-left: auto; margin-right: auto;">
-                    <img id="selfImg"src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/273441299_4879380522146168_1327974870620456978_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEpZoJnRrbkmTuOqAFOfwPNohm3aUExgqiiGbdpQTGCqJbZgsBtuc8orIA2y46THrQQH4fnjw2snSewz5ZYeLCE&_nc_ohc=J0BG8KNe6LoAX_MP36p&_nc_ht=scontent.fbkk5-7.fna&oh=00_AT-T9e_6mbko-8rBFJ_HrjNmGLU98KbISNsnHyNeMWlK7w&oe=6216D661" 
+                    <img id="selfImg"src="https://scontent.fbkk5-7.fna.fbcdn.net/v/t39.30808-6/273441299_4879380522146168_1327974870620456978_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=LTElyowaIAcAX9In2hw&_nc_ht=scontent.fbkk5-7.fna&oh=00_AT8eWqhBw0b410CHWiVI1gj_iOuUO1gnqpOgx0HiOlRwng&oe=622A9CE1" 
                     alt="Beam">
                     </br>
                     <div id="name">
