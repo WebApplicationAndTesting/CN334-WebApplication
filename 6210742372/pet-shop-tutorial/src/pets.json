@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "Coin01",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "DOME",
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "Coin02",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "Scottish Terrier",
+    "location": "Tooleville, West Virginia"
+  },
+  {
+    "id": 2,
+    "name": "Coin03",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "French Bulldog",
+    "location": "Freeburn, Idaho"
+  },
+  {
+    "id": 3,
+    "name": "Coin04",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "Boxer",
+    "location": "Camas, Pennsylvania"
+  },
+  {
+    "id": 4,
+    "name": "Coin05",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "French Bulldog",
+    "location": "Gerber, South Dakota"
+  },
+  {
+    "id": 5,
+    "name": "Coin06",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "French Bulldog",
+    "location": "Innsbrook, Illinois"
+  },
+  {
+    "id": 6,
+    "name": "Coin07",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "location": "Soudan, Louisiana"
+  },
+  {
+    "id": 7,
+    "name": "Coin08",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "Golden Retriever",
+    "location": "Jacksonwald, Palau"
+  },
+  {
+    "id": 8,
+    "name": "Coin09",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "French Bulldog",
+    "location": "Honolulu, Hawaii"
+  },
+  {
+    "id": 9,
+    "name": "Coin10",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "Boxer",
+    "location": "Matheny, Utah"
+  },
+  {
+    "id": 10,
+    "name": "Coin11",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "Boxer",
+    "location": "Tyhee, Indiana"
+  },
+  {
+    "id": 11,
+    "name": "Coin12",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "Scottish Terrier",
+    "location": "Windsor, Montana"
+  },
+  {
+    "id": 12,
+    "name": "Coin13",
+    "picture": "images/dogecoin.jpg",
+    "age": 3,
+    "breed": "French Bulldog",
+    "location": "Kingstowne, Nevada"
+  },
+  {
+    "id": 13,
+    "name": "Coin14",
+    "picture": "images/dogecoin.jpg",
+    "age": 4,
+    "breed": "Golden Retriever",
+    "location": "Sultana, Massachusetts"
+  },
+  {
+    "id": 14,
+    "name": "Coin15",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "Golden Retriever",
+    "location": "Broadlands, Oregon"
+  },
+  {
+    "id": 15,
+    "name": "Coin16",
+    "picture": "images/dogecoin.jpg",
+    "age": 2,
+    "breed": "Golden Retriever",
+    "location": "Dawn, Wisconsin"
+  }
+]
