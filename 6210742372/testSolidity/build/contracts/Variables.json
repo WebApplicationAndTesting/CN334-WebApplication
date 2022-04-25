@@ -1,0 +1,119 @@
+{
+  "contractName": "Variables",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Variables.sol\":\"Variables\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Variables.sol\":{\"keccak256\":\"0x4db562e53fc767a126e6d25607641c3bc10f678737cffacd29f62c96fbaee57e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8364bd1b60e49de861d6d3f9f7a8246d71aa22eb0a2b7c5c9c1e128b044a0df0\",\"dweb:/ipfs/QmSs8ub5ro9XneUAfqtgz5VEtLtF4L7TNFubJhsQp71XoY\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212202d128bbb9cb8388ff7e8d50257fefbef35c8a243dad0dc9cc902c80f5037119c64736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212202d128bbb9cb8388ff7e8d50257fefbef35c8a243dad0dc9cc902c80f5037119c64736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:493:11:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:493:11:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n\r\ncontract Variables {\r\n    // State variables are stored on the blockchain.\r\n    // string public text = \"Hello\";\r\n    // uint public num = 123;\r\n\r\n    // function doSomething() public returns(uint var01) {\r\n        // Local variables are not saved to the blockchain.\r\n        // uint var01 = 456;\r\n\r\n        // Here are some global variables\r\n    //     uint timestamp = block.timestamp; // Current block timestamp\r\n    //     address sender = msg.sender; // address of the caller\r\n    // }\r\n}",
+  "sourcePath": "C:\\Users\\user\\OneDrive\\Desktop\\Sol\\contracts\\Variables.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Variables.sol",
+    "exportedSymbols": {
+      "Variables": [
+        339
+      ]
+    },
+    "id": 340,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 338,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Variables",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 339,
+        "linearizedBaseContracts": [
+          339
+        ],
+        "name": "Variables",
+        "nameLocation": "70:9:11",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 340,
+        "src": "61:493:11",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:521:11"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Variables.sol",
+    "exportedSymbols": {
+      "Variables": [
+        339
+      ]
+    },
+    "id": 340,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 338,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Variables",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 339,
+        "linearizedBaseContracts": [
+          339
+        ],
+        "name": "Variables",
+        "nameLocation": "70:9:11",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 340,
+        "src": "61:493:11",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:521:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T04:31:57.878Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

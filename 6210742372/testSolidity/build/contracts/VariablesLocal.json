@@ -1,0 +1,126 @@
+{
+  "contractName": "VariablesLocal",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/VariablesLocal.sol\":\"VariablesLocal\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/VariablesLocal.sol\":{\"keccak256\":\"0xbbcafa68442cab0abc66e849bd8a50b21cb9e4b3b0c745bbfcb74d9f1f7f1529\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2527ac7b8a6dc9dc3956c768cd1755b3cd2bb6b2951adbd3c32a3500c1e03992\",\"dweb:/ipfs/QmYxiexSAXwfHKnE5nivzt55596wDrHh5toBEUMAr6LjBm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b9e05a146c1c608970549562bc60177288c04f477a4a88869a294d598743db3264736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b9e05a146c1c608970549562bc60177288c04f477a4a88869a294d598743db3264736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:154:12:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:154:12:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n\r\ncontract VariablesLocal {\r\n    // function doSomething1() public returns(uint var02){\r\n    //     uint var02 = 456;\r\n    //     return var02;\r\n    // }\r\n}",
+  "sourcePath": "C:\\Users\\user\\OneDrive\\Desktop\\Sol\\contracts\\VariablesLocal.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/VariablesLocal.sol",
+    "exportedSymbols": {
+      "VariablesLocal": [
+        342
+      ]
+    },
+    "id": 343,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 341,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VariablesLocal",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 342,
+        "linearizedBaseContracts": [
+          342
+        ],
+        "name": "VariablesLocal",
+        "nameLocation": "70:14:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 343,
+        "src": "61:154:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:182:12"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/VariablesLocal.sol",
+    "exportedSymbols": {
+      "VariablesLocal": [
+        342
+      ]
+    },
+    "id": 343,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 341,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VariablesLocal",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 342,
+        "linearizedBaseContracts": [
+          342
+        ],
+        "name": "VariablesLocal",
+        "nameLocation": "70:14:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 343,
+        "src": "61:154:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:182:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xD5885Ae6A43927eB548f1f7a440d44151A58B053",
+      "transactionHash": "0xec876f7b49673b479f26dec54e9a5fcd9e635522643736ee20e9ec969b8bb817"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T04:31:57.881Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "contractName": "Gas",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "forever",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"forever\",\"outputs\":[],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Gas.sol\":\"Gas\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Gas.sol\":{\"keccak256\":\"0xf8af080ac9c45dd9b197c55a00a40f0fb2f8c348aeefae5bda7ecf88bada026f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8f4a76bc6e8a6f0f864d8667362871e902284733bcd2152f22783b603c8c3faf\",\"dweb:/ipfs/QmRyxhbLHvGXkSTDZStoR6U77VZC53te8wezvn2oT3pn3A\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50607380601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639ff9a60314602d575b600080fd5b60336035565b005b5b600160365756fea2646970667358221220d00cb9753b87d3b921bac05c3cb9da34431bcceeb45cf5c966daef366d9ecd1464736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80639ff9a60314602d575b600080fd5b60336035565b005b5b600160365756fea2646970667358221220d00cb9753b87d3b921bac05c3cb9da34431bcceeb45cf5c966daef366d9ecd1464736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:158:3:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:158:3:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;110:106;;;:::i;:::-;;;152:57;159:4;152:57;;110:106::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n\r\ncontract Gas {\r\n    // uint public i = 0;\r\n\r\n    function forever() public pure {\r\n        while (true) {\r\n            uint interger = 0;\r\n        }\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\user\\OneDrive\\Desktop\\Sol\\contracts\\Gas.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Gas.sol",
+    "exportedSymbols": {
+      "Gas": [
+        70
+      ]
+    },
+    "id": 71,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Gas",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 70,
+        "linearizedBaseContracts": [
+          70
+        ],
+        "name": "Gas",
+        "nameLocation": "70:3:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 68,
+              "nodeType": "Block",
+              "src": "141:75:3",
+              "statements": [
+                {
+                  "body": {
+                    "id": 66,
+                    "nodeType": "Block",
+                    "src": "165:44:3",
+                    "statements": [
+                      {
+                        "assignments": [
+                          63
+                        ],
+                        "declarations": [
+                          {
+                            "constant": false,
+                            "id": 63,
+                            "mutability": "mutable",
+                            "name": "interger",
+                            "nameLocation": "185:8:3",
+                            "nodeType": "VariableDeclaration",
+                            "scope": 66,
+                            "src": "180:13:3",
+                            "stateVariable": false,
+                            "storageLocation": "default",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "typeName": {
+                              "id": 62,
+                              "name": "uint",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "180:4:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "visibility": "internal"
+                          }
+                        ],
+                        "id": 65,
+                        "initialValue": {
+                          "hexValue": "30",
+                          "id": 64,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "196:1:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "nodeType": "VariableDeclarationStatement",
+                        "src": "180:17:3"
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "hexValue": "74727565",
+                    "id": 61,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "159:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "id": 67,
+                  "nodeType": "WhileStatement",
+                  "src": "152:57:3"
+                }
+              ]
+            },
+            "functionSelector": "9ff9a603",
+            "id": 69,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "forever",
+            "nameLocation": "119:7:3",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "126:2:3"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "141:0:3"
+            },
+            "scope": 70,
+            "src": "110:106:3",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 71,
+        "src": "61:158:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:188:3"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Gas.sol",
+    "exportedSymbols": {
+      "Gas": [
+        70
+      ]
+    },
+    "id": 71,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Gas",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 70,
+        "linearizedBaseContracts": [
+          70
+        ],
+        "name": "Gas",
+        "nameLocation": "70:3:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 68,
+              "nodeType": "Block",
+              "src": "141:75:3",
+              "statements": [
+                {
+                  "body": {
+                    "id": 66,
+                    "nodeType": "Block",
+                    "src": "165:44:3",
+                    "statements": [
+                      {
+                        "assignments": [
+                          63
+                        ],
+                        "declarations": [
+                          {
+                            "constant": false,
+                            "id": 63,
+                            "mutability": "mutable",
+                            "name": "interger",
+                            "nameLocation": "185:8:3",
+                            "nodeType": "VariableDeclaration",
+                            "scope": 66,
+                            "src": "180:13:3",
+                            "stateVariable": false,
+                            "storageLocation": "default",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "typeName": {
+                              "id": 62,
+                              "name": "uint",
+                              "nodeType": "ElementaryTypeName",
+                              "src": "180:4:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "visibility": "internal"
+                          }
+                        ],
+                        "id": 65,
+                        "initialValue": {
+                          "hexValue": "30",
+                          "id": 64,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "196:1:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        },
+                        "nodeType": "VariableDeclarationStatement",
+                        "src": "180:17:3"
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "hexValue": "74727565",
+                    "id": 61,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "159:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "id": 67,
+                  "nodeType": "WhileStatement",
+                  "src": "152:57:3"
+                }
+              ]
+            },
+            "functionSelector": "9ff9a603",
+            "id": 69,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "forever",
+            "nameLocation": "119:7:3",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "126:2:3"
+            },
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "141:0:3"
+            },
+            "scope": 70,
+            "src": "110:106:3",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 71,
+        "src": "61:158:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:188:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5f375047FA873d1f03847383664155cE2fe6EaA9",
+      "transactionHash": "0x50eee047ff470dd7460c5f2cf6e8b181ba3eb9b48d716e1121e6e4c5d90bac75"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T04:31:57.836Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

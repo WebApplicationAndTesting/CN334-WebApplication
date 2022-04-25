@@ -1,0 +1,126 @@
+{
+  "contractName": "VariablesState",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/VariablesState.sol\":\"VariablesState\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/VariablesState.sol\":{\"keccak256\":\"0x887ff460fc23c414a786b12b64d2e7df42f605aec3bd69406b2f0eeb1017eb8c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://90cd411b7e30059011e1bbaeb9096fb62d5411fc79053e53eb923a3d114d5ccc\",\"dweb:/ipfs/QmdMWrzMRLgj4tbwQsB9NhaPPNLvru8wUdaX2c8AAzTjdc\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122054d702d30c8eaedbda372cc9830aeb4159814843bb5ce26c0fdffe6001b5880d64736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122054d702d30c8eaedbda372cc9830aeb4159814843bb5ce26c0fdffe6001b5880d64736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:195:13:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "61:195:13:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n\r\ncontract VariablesState {\r\n    // uint public var03 = 456;\r\n\r\n    // function doSomething1() public returns(uint var03){\r\n    //     uint var02 = 456;\r\n    //     return var02;\r\n    \r\n    // }\r\n}",
+  "sourcePath": "C:\\Users\\user\\OneDrive\\Desktop\\Sol\\contracts\\VariablesState.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/VariablesState.sol",
+    "exportedSymbols": {
+      "VariablesState": [
+        345
+      ]
+    },
+    "id": 346,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 344,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VariablesState",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 345,
+        "linearizedBaseContracts": [
+          345
+        ],
+        "name": "VariablesState",
+        "nameLocation": "70:14:13",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 346,
+        "src": "61:195:13",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:223:13"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/VariablesState.sol",
+    "exportedSymbols": {
+      "VariablesState": [
+        345
+      ]
+    },
+    "id": 346,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 344,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VariablesState",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 345,
+        "linearizedBaseContracts": [
+          345
+        ],
+        "name": "VariablesState",
+        "nameLocation": "70:14:13",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 346,
+        "src": "61:195:13",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:223:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x4bc56a876647e20c7D92972304c93250d7CE0f21",
+      "transactionHash": "0x042de388d873c9172b713f86d646cbce2de84d540d8830d274ea975971d8e6b8"
+    }
+  },
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-04-25T04:31:57.884Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
